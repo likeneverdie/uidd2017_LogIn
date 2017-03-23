@@ -1,0 +1,92 @@
+#LogIn{
+	background-image: url("LogIn.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    width:1500px;
+    height:740px;
+    margin: auto;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    vertical-align: center;
+}
+
+#UsernameInput{
+    color: white;
+    position: relative;
+    top: 260px;
+    left: 530px;
+    width: 27.5%;  
+    display: block;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 24px;
+    font-family: century gothic;
+    background-color: #2EB69E;
+    background-image: url("icon_name.png");
+    background-size: 12%;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 40px 20px 12px 100px;
+    line-height: 0;
+}
+
+#PasswordInput{
+    color: white;
+    position: relative;
+    top: 280px;
+    left: 530px;
+    width: 27.5%;  
+    display: block;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 24px;
+    font-family: century gothic;
+    background-color: #2EB69E;
+    background-image: url("icon_lock.png");
+    background-size: 12%;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 40px 20px 12px 100px;
+}
+
+:focus {
+    outline: 0;
+}
+
+input:hover{
+  box-shadow: 0 0 5px 1px white;
+}
+
+input[type="text"]:focus {
+    border: solid 1px white;
+    box-shadow: 0 0 5px 1px white;
+}
+
+input[type="password"]:focus {
+    border: solid 1px white;
+    box-shadow: 0 0 5px 1px white;
+}
+
+
+button {
+  background-color: #E73A62;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 530px;
+  height: 75px;
+  border-radius: 40px;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  font-family: century gothic;
+  left: 530px;
+  top: 300px;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 white, 0 3px 10px 0 white;
+}
